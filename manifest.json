@@ -1,0 +1,16 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-1.12.2-14.23.5.2838",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Slammin' Salmon's Mines Recrafted",
+  "version": "Tropical Tuna v1.X",
+  "author": "SalmonSays",
+  

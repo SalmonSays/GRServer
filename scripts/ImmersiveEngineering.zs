@@ -1,0 +1,29 @@
+//This file was created via CT-GUI! Editing it is not advised!
+//Don't touch me!
+//#Remove
+recipes.remove(<immersiveengineering:skyhook>);
+recipes.remove(<immersiveengineering:metal_device0:2>);
+recipes.remove(<immersiveengineering:metal_device0:1>);
+recipes.remove(<immersiveengineering:metal_device0>);
+recipes.remove(<immersiveengineering:metal_device1:3>);
+recipes.remove(<immersiveengineering:metal_device1:10>);
+recipes.remove(<immersiveengineering:metal_device1:11>);
+recipes.remove(<immersiveengineering:conveyor>);
+//Don't touch me!
+//#Add
+recipes.addShaped(<immersiveengineering:metal_device0:2>, [[<techreborn:part:30>, <thermalfoundation:storage:3>, <techreborn:part:30>],[<thermalfoundation:material:160>, <thermalfoundation:storage:3>, <thermalfoundation:material:160>], [<minecraft:redstone_block>, <immersiveengineering:metal_device0:1>, <minecraft:redstone_block>]]);
+recipes.addShaped(<immersiveengineering:metal_device0:1>, [[<techreborn:part:29>, <thermalfoundation:material:131>, <techreborn:part:29>],[<thermalfoundation:material:161>, <thermalfoundation:material:131>, <thermalfoundation:material:161>], [<minecraft:redstone_block>, <immersiveengineering:metal_device0>, <minecraft:redstone_block>]]);
+recipes.addShaped(<immersiveengineering:metal_device0>, [[<techreborn:part:29>, <thermalfoundation:material:160>, <techreborn:part:29>],[<thermalfoundation:material:128>, <thermalfoundation:material:131>, <thermalfoundation:material:128>], [<immersiveengineering:treated_wood>, <minecraft:redstone>, <immersiveengineering:treated_wood>]]);
+recipes.addShaped(<immersiveengineering:metal_device1:13>, [[<ore:blockGlassColorless>, <immersiveengineering:material:26>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <techreborn:part:30>, <ore:blockGlassColorless>], [<immersiveengineering:treated_wood>, <immersiveengineering:material:8>, <immersiveengineering:treated_wood>]]);
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}), [[<ore:plankTreatedWood>, <immersiveengineering:cloth_device:2>, null],[<immersiveengineering:material:8>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), null], [null, null, null]]);
+recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"}), [<ore:scaffoldingSteel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}).onlyWithTag({conveyorType: "immersiveengineering:extract"})]);
+recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}), [<ore:scaffoldingSteel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}).onlyWithTag({conveyorType: "immersiveengineering:vertical"})]);
+recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:droppercovered"}), [<ore:scaffoldingSteel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}).onlyWithTag({conveyorType: "immersiveengineering:dropper"})]);
+recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}), [<ore:scaffoldingSteel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"})]);
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}), [[null, null, null],[<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:iron_ingot>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"})], [null, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), null]]);
+recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}), [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}),<minecraft:iron_trapdoor>]);
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}) * 3, [[<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <ore:ingotIron>, null],[<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), null, null], [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <ore:ingotIron>, null]]);
+recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}).onlyWithTag({conveyorType: "immersiveengineering:uncontrolled"})]);
+recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}), [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"})]);
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [[null, null, null],[<ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>], [<ore:reBattery>, <ore:gearSilver>, <ore:reBattery>]]);
+//File End
