@@ -2,37 +2,37 @@
 
     {
 
-        sourceFilePath options.txt,
+        "sourceFilePath": "options.txt",
 
-        destinationFilePath options.txt,
+        "destinationFilePath": "options.txt",
 
-        clientSide true,
+        "clientSide": true,
 
-        serverSide false
+        "serverSide": false
 
     },
 
     {
 
-       sourceFilePath optionsof.txt,
+       "sourceFilePath": "optionsof.txt",
 
-       destinationFilePath optionsof.txt,
+       "destinationFilePath": "optionsof.txt",
 
-       clientSide true,
+       "clientSide": true,
 
-       serverSide false
+       "serverSide": false
 
    },
 
    {
 
-       sourceFilePath keybindings.txt,
+       "sourceFilePath": "server.properties",
 
-       destinationFilePath keybindings.txt,
+       "destinationFilePath": "server.properties",
 
-       clientSide true,
+       "clientSide": true,
 
-       serverSide false
+       "serverSide": false
 
     }
 
